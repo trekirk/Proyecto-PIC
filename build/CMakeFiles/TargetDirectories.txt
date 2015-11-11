@@ -1,0 +1,1 @@
+/home/trekirk/OpenCV/ejemplo/build/CMakeFiles/DisplayImage.dir
