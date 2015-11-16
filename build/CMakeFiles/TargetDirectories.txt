@@ -1,1 +1,2 @@
-/home/trekirk/OpenCV/ejemplo/build/CMakeFiles/DisplayImage.dir
+/home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles/DisplayImage.dir
+/home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles/DisplayImage_node.dir

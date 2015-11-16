@@ -6,9 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/trekirk/OpenCV/ejemplo/prueba.cpp
-iostream
+/home/trekirk/OpenCV/Proyecto-PIC/movimiento.cpp
+opencv/cv.hpp
 -
 opencv2/opencv.hpp
+-
+opencv2/core.hpp
+-
+opencv2/highgui.hpp
+-
+string.h
 -
 

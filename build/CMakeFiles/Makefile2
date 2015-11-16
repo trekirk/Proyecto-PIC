@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/trekirk/OpenCV/ejemplo
+CMAKE_SOURCE_DIR = /home/trekirk/OpenCV/Proyecto-PIC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/trekirk/OpenCV/ejemplo/build
+CMAKE_BINARY_DIR = /home/trekirk/OpenCV/Proyecto-PIC/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/DisplayImage.dir
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/trekirk/OpenCV/ejemplo/build
 CMakeFiles/DisplayImage.dir/all:
 	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/depend
 	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/trekirk/OpenCV/ejemplo/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles  1
 	@echo "Built target DisplayImage"
 .PHONY : CMakeFiles/DisplayImage.dir/all
 
@@ -69,9 +69,9 @@ all: CMakeFiles/DisplayImage.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DisplayImage.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/trekirk/OpenCV/ejemplo/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/DisplayImage.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/trekirk/OpenCV/ejemplo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles 0
 .PHONY : CMakeFiles/DisplayImage.dir/rule
 
 # Convenience name for target.
@@ -85,6 +85,41 @@ CMakeFiles/DisplayImage.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/DisplayImage.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/DisplayImage_node.dir
+
+# All Build rule for target.
+CMakeFiles/DisplayImage_node.dir/all:
+	$(MAKE) -f CMakeFiles/DisplayImage_node.dir/build.make CMakeFiles/DisplayImage_node.dir/depend
+	$(MAKE) -f CMakeFiles/DisplayImage_node.dir/build.make CMakeFiles/DisplayImage_node.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles  2
+	@echo "Built target DisplayImage_node"
+.PHONY : CMakeFiles/DisplayImage_node.dir/all
+
+# Include target in all.
+all: CMakeFiles/DisplayImage_node.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/DisplayImage_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/DisplayImage_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles 0
+.PHONY : CMakeFiles/DisplayImage_node.dir/rule
+
+# Convenience name for target.
+DisplayImage_node: CMakeFiles/DisplayImage_node.dir/rule
+.PHONY : DisplayImage_node
+
+# clean rule for target.
+CMakeFiles/DisplayImage_node.dir/clean:
+	$(MAKE) -f CMakeFiles/DisplayImage_node.dir/build.make CMakeFiles/DisplayImage_node.dir/clean
+.PHONY : CMakeFiles/DisplayImage_node.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/DisplayImage_node.dir/clean
 .PHONY : clean
 
 #=============================================================================

@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/trekirk/OpenCV/ejemplo
+CMAKE_SOURCE_DIR = /home/trekirk/OpenCV/Proyecto-PIC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/trekirk/OpenCV/ejemplo/build
+CMAKE_BINARY_DIR = /home/trekirk/OpenCV/Proyecto-PIC/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,9 +69,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/trekirk/OpenCV/ejemplo/build/CMakeFiles /home/trekirk/OpenCV/ejemplo/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles /home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/trekirk/OpenCV/ejemplo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,12 +111,49 @@ DisplayImage/fast:
 	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/build
 .PHONY : DisplayImage/fast
 
+#=============================================================================
+# Target rules for targets named DisplayImage_node
+
+# Build rule for target.
+DisplayImage_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 DisplayImage_node
+.PHONY : DisplayImage_node
+
+# fast build rule for target.
+DisplayImage_node/fast:
+	$(MAKE) -f CMakeFiles/DisplayImage_node.dir/build.make CMakeFiles/DisplayImage_node.dir/build
+.PHONY : DisplayImage_node/fast
+
+movimiento.o: movimiento.cpp.o
+.PHONY : movimiento.o
+
+# target to build an object file
+movimiento.cpp.o:
+	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/movimiento.cpp.o
+.PHONY : movimiento.cpp.o
+
+movimiento.i: movimiento.cpp.i
+.PHONY : movimiento.i
+
+# target to preprocess a source file
+movimiento.cpp.i:
+	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/movimiento.cpp.i
+.PHONY : movimiento.cpp.i
+
+movimiento.s: movimiento.cpp.s
+.PHONY : movimiento.s
+
+# target to generate assembly for a file
+movimiento.cpp.s:
+	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/movimiento.cpp.s
+.PHONY : movimiento.cpp.s
+
 prueba.o: prueba.cpp.o
 .PHONY : prueba.o
 
 # target to build an object file
 prueba.cpp.o:
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/prueba.cpp.o
+	$(MAKE) -f CMakeFiles/DisplayImage_node.dir/build.make CMakeFiles/DisplayImage_node.dir/prueba.cpp.o
 .PHONY : prueba.cpp.o
 
 prueba.i: prueba.cpp.i
@@ -124,7 +161,7 @@ prueba.i: prueba.cpp.i
 
 # target to preprocess a source file
 prueba.cpp.i:
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/prueba.cpp.i
+	$(MAKE) -f CMakeFiles/DisplayImage_node.dir/build.make CMakeFiles/DisplayImage_node.dir/prueba.cpp.i
 .PHONY : prueba.cpp.i
 
 prueba.s: prueba.cpp.s
@@ -132,7 +169,7 @@ prueba.s: prueba.cpp.s
 
 # target to generate assembly for a file
 prueba.cpp.s:
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/prueba.cpp.s
+	$(MAKE) -f CMakeFiles/DisplayImage_node.dir/build.make CMakeFiles/DisplayImage_node.dir/prueba.cpp.s
 .PHONY : prueba.cpp.s
 
 # Help Target
@@ -142,8 +179,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... DisplayImage"
+	@echo "... DisplayImage_node"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... movimiento.o"
+	@echo "... movimiento.i"
+	@echo "... movimiento.s"
 	@echo "... prueba.o"
 	@echo "... prueba.i"
 	@echo "... prueba.s"

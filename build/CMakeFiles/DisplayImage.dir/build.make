@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/trekirk/OpenCV/ejemplo
+CMAKE_SOURCE_DIR = /home/trekirk/OpenCV/Proyecto-PIC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/trekirk/OpenCV/ejemplo/build
+CMAKE_BINARY_DIR = /home/trekirk/OpenCV/Proyecto-PIC/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/DisplayImage.dir/depend.make
@@ -49,80 +49,48 @@ include CMakeFiles/DisplayImage.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/DisplayImage.dir/flags.make
 
-CMakeFiles/DisplayImage.dir/prueba.cpp.o: CMakeFiles/DisplayImage.dir/flags.make
-CMakeFiles/DisplayImage.dir/prueba.cpp.o: ../prueba.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/trekirk/OpenCV/ejemplo/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/DisplayImage.dir/prueba.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/DisplayImage.dir/prueba.cpp.o -c /home/trekirk/OpenCV/ejemplo/prueba.cpp
+CMakeFiles/DisplayImage.dir/movimiento.cpp.o: CMakeFiles/DisplayImage.dir/flags.make
+CMakeFiles/DisplayImage.dir/movimiento.cpp.o: ../movimiento.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/DisplayImage.dir/movimiento.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/DisplayImage.dir/movimiento.cpp.o -c /home/trekirk/OpenCV/Proyecto-PIC/movimiento.cpp
 
-CMakeFiles/DisplayImage.dir/prueba.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DisplayImage.dir/prueba.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/trekirk/OpenCV/ejemplo/prueba.cpp > CMakeFiles/DisplayImage.dir/prueba.cpp.i
+CMakeFiles/DisplayImage.dir/movimiento.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DisplayImage.dir/movimiento.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/trekirk/OpenCV/Proyecto-PIC/movimiento.cpp > CMakeFiles/DisplayImage.dir/movimiento.cpp.i
 
-CMakeFiles/DisplayImage.dir/prueba.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DisplayImage.dir/prueba.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/trekirk/OpenCV/ejemplo/prueba.cpp -o CMakeFiles/DisplayImage.dir/prueba.cpp.s
+CMakeFiles/DisplayImage.dir/movimiento.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DisplayImage.dir/movimiento.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/trekirk/OpenCV/Proyecto-PIC/movimiento.cpp -o CMakeFiles/DisplayImage.dir/movimiento.cpp.s
 
-CMakeFiles/DisplayImage.dir/prueba.cpp.o.requires:
-.PHONY : CMakeFiles/DisplayImage.dir/prueba.cpp.o.requires
+CMakeFiles/DisplayImage.dir/movimiento.cpp.o.requires:
+.PHONY : CMakeFiles/DisplayImage.dir/movimiento.cpp.o.requires
 
-CMakeFiles/DisplayImage.dir/prueba.cpp.o.provides: CMakeFiles/DisplayImage.dir/prueba.cpp.o.requires
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/prueba.cpp.o.provides.build
-.PHONY : CMakeFiles/DisplayImage.dir/prueba.cpp.o.provides
+CMakeFiles/DisplayImage.dir/movimiento.cpp.o.provides: CMakeFiles/DisplayImage.dir/movimiento.cpp.o.requires
+	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/movimiento.cpp.o.provides.build
+.PHONY : CMakeFiles/DisplayImage.dir/movimiento.cpp.o.provides
 
-CMakeFiles/DisplayImage.dir/prueba.cpp.o.provides.build: CMakeFiles/DisplayImage.dir/prueba.cpp.o
+CMakeFiles/DisplayImage.dir/movimiento.cpp.o.provides.build: CMakeFiles/DisplayImage.dir/movimiento.cpp.o
 
 # Object files for target DisplayImage
 DisplayImage_OBJECTS = \
-"CMakeFiles/DisplayImage.dir/prueba.cpp.o"
+"CMakeFiles/DisplayImage.dir/movimiento.cpp.o"
 
 # External object files for target DisplayImage
 DisplayImage_EXTERNAL_OBJECTS =
 
-DisplayImage: CMakeFiles/DisplayImage.dir/prueba.cpp.o
-DisplayImage: CMakeFiles/DisplayImage.dir/build.make
-DisplayImage: /usr/local/lib/libopencv_viz.so.3.0.0
-DisplayImage: /usr/local/lib/libopencv_videostab.so.3.0.0
-DisplayImage: /usr/local/lib/libopencv_videoio.so.3.0.0
-DisplayImage: /usr/local/lib/libopencv_video.so.3.0.0
-DisplayImage: /usr/local/lib/libopencv_ts.a
-DisplayImage: /usr/local/lib/libopencv_superres.so.3.0.0
-DisplayImage: /usr/local/lib/libopencv_stitching.so.3.0.0
-DisplayImage: /usr/local/lib/libopencv_shape.so.3.0.0
-DisplayImage: /usr/local/lib/libopencv_photo.so.3.0.0
-DisplayImage: /usr/local/lib/libopencv_objdetect.so.3.0.0
-DisplayImage: /usr/local/lib/libopencv_ml.so.3.0.0
-DisplayImage: /usr/local/lib/libopencv_imgproc.so.3.0.0
-DisplayImage: /usr/local/lib/libopencv_imgcodecs.so.3.0.0
-DisplayImage: /usr/local/lib/libopencv_highgui.so.3.0.0
-DisplayImage: /usr/local/lib/libopencv_flann.so.3.0.0
-DisplayImage: /usr/local/lib/libopencv_features2d.so.3.0.0
-DisplayImage: /usr/local/lib/libopencv_core.so.3.0.0
-DisplayImage: /usr/local/lib/libopencv_calib3d.so.3.0.0
-DisplayImage: /usr/lib/x86_64-linux-gnu/libGLU.so
-DisplayImage: /usr/lib/x86_64-linux-gnu/libGL.so
-DisplayImage: /usr/lib/x86_64-linux-gnu/libSM.so
-DisplayImage: /usr/lib/x86_64-linux-gnu/libICE.so
-DisplayImage: /usr/lib/x86_64-linux-gnu/libX11.so
-DisplayImage: /usr/lib/x86_64-linux-gnu/libXext.so
-DisplayImage: /usr/local/share/OpenCV/3rdparty/lib/libippicv.a
-DisplayImage: /usr/local/lib/libopencv_features2d.so.3.0.0
-DisplayImage: /usr/local/lib/libopencv_highgui.so.3.0.0
-DisplayImage: /usr/local/lib/libopencv_videoio.so.3.0.0
-DisplayImage: /usr/local/lib/libopencv_imgcodecs.so.3.0.0
-DisplayImage: /usr/local/lib/libopencv_flann.so.3.0.0
-DisplayImage: /usr/local/lib/libopencv_video.so.3.0.0
-DisplayImage: /usr/local/lib/libopencv_imgproc.so.3.0.0
-DisplayImage: /usr/local/lib/libopencv_core.so.3.0.0
-DisplayImage: CMakeFiles/DisplayImage.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable DisplayImage"
+libDisplayImage.a: CMakeFiles/DisplayImage.dir/movimiento.cpp.o
+libDisplayImage.a: CMakeFiles/DisplayImage.dir/build.make
+libDisplayImage.a: CMakeFiles/DisplayImage.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libDisplayImage.a"
+	$(CMAKE_COMMAND) -P CMakeFiles/DisplayImage.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DisplayImage.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/DisplayImage.dir/build: DisplayImage
+CMakeFiles/DisplayImage.dir/build: libDisplayImage.a
 .PHONY : CMakeFiles/DisplayImage.dir/build
 
-CMakeFiles/DisplayImage.dir/requires: CMakeFiles/DisplayImage.dir/prueba.cpp.o.requires
+CMakeFiles/DisplayImage.dir/requires: CMakeFiles/DisplayImage.dir/movimiento.cpp.o.requires
 .PHONY : CMakeFiles/DisplayImage.dir/requires
 
 CMakeFiles/DisplayImage.dir/clean:
@@ -130,6 +98,6 @@ CMakeFiles/DisplayImage.dir/clean:
 .PHONY : CMakeFiles/DisplayImage.dir/clean
 
 CMakeFiles/DisplayImage.dir/depend:
-	cd /home/trekirk/OpenCV/ejemplo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/trekirk/OpenCV/ejemplo /home/trekirk/OpenCV/ejemplo /home/trekirk/OpenCV/ejemplo/build /home/trekirk/OpenCV/ejemplo/build /home/trekirk/OpenCV/ejemplo/build/CMakeFiles/DisplayImage.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/trekirk/OpenCV/Proyecto-PIC/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/trekirk/OpenCV/Proyecto-PIC /home/trekirk/OpenCV/Proyecto-PIC /home/trekirk/OpenCV/Proyecto-PIC/build /home/trekirk/OpenCV/Proyecto-PIC/build /home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles/DisplayImage.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/DisplayImage.dir/depend
 

@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/DisplayImage.dir/prueba.cpp.o"
-  "DisplayImage.pdb"
-  "DisplayImage"
+  "CMakeFiles/DisplayImage.dir/movimiento.cpp.o"
+  "libDisplayImage.pdb"
+  "libDisplayImage.a"
 )
 
 # Per-language clean rules from dependency scanning.

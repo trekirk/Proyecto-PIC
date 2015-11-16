@@ -7,10 +7,11 @@
 using namespace std;
 using namespace cv;
 
- int main()
+
+int piruleta()
 {
   Mat img, img_canny, drawing;
-  img = imread("/home/juanmanuel/Documentos/OCV_projects/diablo.png");
+  img = imread("mandril.jpg");
   namedWindow( "Demonio Tasmania", cv::WINDOW_AUTOSIZE );
   namedWindow( "Demonio Tasmania1", cv::WINDOW_AUTOSIZE );
   vector<vector<Point> > cnt;

@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/trekirk/OpenCV/Proyecto-PIC/movimiento.cpp" "/home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles/DisplayImage.dir/movimiento.cpp.o"
+  "/home/trekirk/OpenCV/Proyecto-PIC/prueba.cpp" "/home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles/DisplayImage_node.dir/prueba.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
