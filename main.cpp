@@ -1,74 +1,18 @@
-#include <iostream>
-#include <cstdio>
-#include <opencv/cv.hpp>
-#include <opencv2/opencv.hpp>
-#include <opencv2/core.hpp>
-#include <opencv2/highgui.hpp>
-#include <string.h>
-#include "movimiento.cpp"
-
-#include <stdio.h>
-#include <vector>
-#include "opencv2/features2d/features2d.hpp"
-#include "opencv2/nonfree/features2d.hpp"
-#include "opencv2/nonfree/nonfree.hpp"
-#include "opencv2/imgproc/imgproc.hpp"
+#include "proy_lib.h"
 
 #define ESCAPE 27
 
-using namespace cv;
-using namespace std;
-
-void readme();
+using namespace vision;
 
 /** @function main */
 int main( int argc, char** argv )
 {
+    matchORB("mandril.jpg", "mandril.jpg");
+    cout<<"Funcionamiento correcto"<<endl;
+}
 
+/** @function readme */
 
-        Mat img1 = imread("mandril.jpg",IMREAD_GRAYSCALE);
-        Mat img2 = imread("mandril.jpg",IMREAD_GRAYSCALE);
-        namedWindow("original", WINDOW_AUTOSIZE);
-        namedWindow("histogram", WINDOW_AUTOSIZE);
-        imshow("original", img1);
-        imshow("histogram", img2);
-        
-        if(img1.empty() || img2.empty())
-        {
-            printf("Can't load all the images!");
-            return -1;
-        }   
-
-//Initialise the Wrapping Class for Surf()
-    ORB cacota;
-    Ptr<FeatureDetector> detector = FeatureDetector::create("SURF");
-    vector<KeyPoint> keypoints1, keypoints2;
-    cacota.detect(img1, keypoints1);
-    cacota.detect(img2, keypoints2);
-
-    // computing descriptors
-    Ptr<DescriptorExtractor> extractor = DescriptorExtractor::create("SURF");
-    Mat descriptors1, descriptors2;
-    cacota.compute(img1, keypoints1, descriptors1);
-    cacota.compute(img2, keypoints2, descriptors2);
-
-//Initialise BruteForceMatcher: For each descriptor in the first set, this matcher finds the closest descriptor in the second set by trying each on (=brute)
-    BFMatcher matcher(NORM_L2);
-    vector< DMatch > matches;
-    matcher.match(descriptors1, descriptors2, matches);
-
-// drawing the results
-    namedWindow("matches", 1);
-    Mat img_matches;
-    drawMatches(img1, keypoints1, img2, keypoints2, matches, img_matches);
-    imshow("matches", img_matches);
-
-    waitKey(0);
-
-    return 0;}
-
-
-//void readme();
 
 /** @function main */
 /*int main( int argc, char** argv )

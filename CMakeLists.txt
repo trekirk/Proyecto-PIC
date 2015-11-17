@@ -1,11 +1,13 @@
 cmake_minimum_required(VERSION 2.8)
-project( DisplayImage )
+project( Proyecto-PIC )
 find_package( OpenCV REQUIRED )
-add_library(DisplayImage
-  movimiento.cpp
+add_library(Proyecto-PIC
+  proy_lib.cpp
 )
-add_executable( DisplayImage_node prueba.cpp )
-target_link_libraries( DisplayImage_node ${OpenCV_LIBS} )
+add_executable( vision_app main.cpp )
+target_link_libraries( vision_app
+ Proyecto-PIC
+ ${OpenCV_LIBS} )
 
 # En caso de querer crear varios ejecutables al mismo tiempo (retirar el if(0) y endif(0))
 if(0)

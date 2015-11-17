@@ -1,3 +1,3 @@
 FILE(REMOVE_RECURSE
-  "libDisplayImage.a"
+  "libProyecto-PIC.a"
 )

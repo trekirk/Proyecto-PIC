@@ -99,78 +99,78 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named DisplayImage
+# Target rules for targets named Proyecto-PIC
 
 # Build rule for target.
-DisplayImage: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 DisplayImage
-.PHONY : DisplayImage
+Proyecto-PIC: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Proyecto-PIC
+.PHONY : Proyecto-PIC
 
 # fast build rule for target.
-DisplayImage/fast:
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/build
-.PHONY : DisplayImage/fast
+Proyecto-PIC/fast:
+	$(MAKE) -f CMakeFiles/Proyecto-PIC.dir/build.make CMakeFiles/Proyecto-PIC.dir/build
+.PHONY : Proyecto-PIC/fast
 
 #=============================================================================
-# Target rules for targets named DisplayImage_node
+# Target rules for targets named vision_app
 
 # Build rule for target.
-DisplayImage_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 DisplayImage_node
-.PHONY : DisplayImage_node
+vision_app: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 vision_app
+.PHONY : vision_app
 
 # fast build rule for target.
-DisplayImage_node/fast:
-	$(MAKE) -f CMakeFiles/DisplayImage_node.dir/build.make CMakeFiles/DisplayImage_node.dir/build
-.PHONY : DisplayImage_node/fast
+vision_app/fast:
+	$(MAKE) -f CMakeFiles/vision_app.dir/build.make CMakeFiles/vision_app.dir/build
+.PHONY : vision_app/fast
 
-movimiento.o: movimiento.cpp.o
-.PHONY : movimiento.o
-
-# target to build an object file
-movimiento.cpp.o:
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/movimiento.cpp.o
-.PHONY : movimiento.cpp.o
-
-movimiento.i: movimiento.cpp.i
-.PHONY : movimiento.i
-
-# target to preprocess a source file
-movimiento.cpp.i:
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/movimiento.cpp.i
-.PHONY : movimiento.cpp.i
-
-movimiento.s: movimiento.cpp.s
-.PHONY : movimiento.s
-
-# target to generate assembly for a file
-movimiento.cpp.s:
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/movimiento.cpp.s
-.PHONY : movimiento.cpp.s
-
-prueba.o: prueba.cpp.o
-.PHONY : prueba.o
+main.o: main.cpp.o
+.PHONY : main.o
 
 # target to build an object file
-prueba.cpp.o:
-	$(MAKE) -f CMakeFiles/DisplayImage_node.dir/build.make CMakeFiles/DisplayImage_node.dir/prueba.cpp.o
-.PHONY : prueba.cpp.o
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/vision_app.dir/build.make CMakeFiles/vision_app.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-prueba.i: prueba.cpp.i
-.PHONY : prueba.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-prueba.cpp.i:
-	$(MAKE) -f CMakeFiles/DisplayImage_node.dir/build.make CMakeFiles/DisplayImage_node.dir/prueba.cpp.i
-.PHONY : prueba.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/vision_app.dir/build.make CMakeFiles/vision_app.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-prueba.s: prueba.cpp.s
-.PHONY : prueba.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-prueba.cpp.s:
-	$(MAKE) -f CMakeFiles/DisplayImage_node.dir/build.make CMakeFiles/DisplayImage_node.dir/prueba.cpp.s
-.PHONY : prueba.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/vision_app.dir/build.make CMakeFiles/vision_app.dir/main.cpp.s
+.PHONY : main.cpp.s
+
+proy_lib.o: proy_lib.cpp.o
+.PHONY : proy_lib.o
+
+# target to build an object file
+proy_lib.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto-PIC.dir/build.make CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.o
+.PHONY : proy_lib.cpp.o
+
+proy_lib.i: proy_lib.cpp.i
+.PHONY : proy_lib.i
+
+# target to preprocess a source file
+proy_lib.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto-PIC.dir/build.make CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.i
+.PHONY : proy_lib.cpp.i
+
+proy_lib.s: proy_lib.cpp.s
+.PHONY : proy_lib.s
+
+# target to generate assembly for a file
+proy_lib.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto-PIC.dir/build.make CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.s
+.PHONY : proy_lib.cpp.s
 
 # Help Target
 help:
@@ -178,16 +178,16 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... DisplayImage"
-	@echo "... DisplayImage_node"
+	@echo "... Proyecto-PIC"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... movimiento.o"
-	@echo "... movimiento.i"
-	@echo "... movimiento.s"
-	@echo "... prueba.o"
-	@echo "... prueba.i"
-	@echo "... prueba.s"
+	@echo "... vision_app"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... proy_lib.o"
+	@echo "... proy_lib.i"
+	@echo "... proy_lib.s"
 .PHONY : help
 
 

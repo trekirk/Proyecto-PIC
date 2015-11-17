@@ -4,12 +4,13 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/trekirk/OpenCV/Proyecto-PIC/movimiento.cpp" "/home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles/DisplayImage.dir/movimiento.cpp.o"
+  "/home/trekirk/OpenCV/Proyecto-PIC/main.cpp" "/home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles/vision_app.dir/main.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles/Proyecto-PIC.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

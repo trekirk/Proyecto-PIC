@@ -116,7 +116,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=DisplayImage
+CMAKE_PROJECT_NAME:STATIC=Proyecto-PIC
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -170,15 +170,6 @@ CMAKE_USE_RELATIVE_PATHS:BOOL=OFF
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//Value Computed by CMake
-DisplayImage_BINARY_DIR:STATIC=/home/trekirk/OpenCV/Proyecto-PIC/build
-
-//Dependencies for target
-DisplayImage_LIB_DEPENDS:STATIC=
-
-//Value Computed by CMake
-DisplayImage_SOURCE_DIR:STATIC=/home/trekirk/OpenCV/Proyecto-PIC
-
 //Path where debug 3rdpaty OpenCV dependencies are located
 OpenCV_3RDPARTY_LIB_DIR_DBG:PATH=
 
@@ -195,6 +186,15 @@ OpenCV_LIB_DIR_DBG:PATH=
 
 //Path where release OpenCV libraries are located
 OpenCV_LIB_DIR_OPT:PATH=
+
+//Value Computed by CMake
+Proyecto-PIC_BINARY_DIR:STATIC=/home/trekirk/OpenCV/Proyecto-PIC/build
+
+//Dependencies for target
+Proyecto-PIC_LIB_DEPENDS:STATIC=
+
+//Value Computed by CMake
+Proyecto-PIC_SOURCE_DIR:STATIC=/home/trekirk/OpenCV/Proyecto-PIC
 
 
 ########################

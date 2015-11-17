@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/trekirk/OpenCV/Proyecto-PIC/main.cpp
+proy_lib.h
+/home/trekirk/OpenCV/Proyecto-PIC/proy_lib.h
+
+/home/trekirk/OpenCV/Proyecto-PIC/proy_lib.h
+iostream
+-
+cstdio
+-
+stdio.h
+-
+vector
+-
+string.h
+-
+opencv/cv.hpp
+-
+opencv2/opencv.hpp
+-
+opencv2/core.hpp
+-
+opencv2/highgui.hpp
+-
+opencv2/features2d/features2d.hpp
+/home/trekirk/OpenCV/Proyecto-PIC/opencv2/features2d/features2d.hpp
+opencv2/imgproc/imgproc.hpp
+/home/trekirk/OpenCV/Proyecto-PIC/opencv2/imgproc/imgproc.hpp
+

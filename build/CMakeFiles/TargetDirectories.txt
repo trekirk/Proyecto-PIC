@@ -1,2 +1,2 @@
-/home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles/DisplayImage.dir
-/home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles/DisplayImage_node.dir
+/home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles/Proyecto-PIC.dir
+/home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles/vision_app.dir

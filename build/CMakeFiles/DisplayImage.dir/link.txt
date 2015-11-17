@@ -1,2 +1,0 @@
-/usr/bin/ar cr libDisplayImage.a  CMakeFiles/DisplayImage.dir/movimiento.cpp.o
-/usr/bin/ranlib libDisplayImage.a
