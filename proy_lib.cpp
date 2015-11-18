@@ -9,16 +9,17 @@ namespace vision
 
   void matchORB(string image1, string image2)
   {
-    Mat img1 = imread(image1,IMREAD_GRAYSCALE);
-    Mat img2 = imread(image2,IMREAD_GRAYSCALE);
+    readme();
+    Mat img1 = imread(image1/*,IMREAD_GRAYSCALE*/);
+    Mat img2 = imread(image2/*,IMREAD_GRAYSCALE*/);
     namedWindow("ima1", WINDOW_AUTOSIZE);
     namedWindow("ima2", WINDOW_AUTOSIZE);
-    imshow("ima1", img1);
-    imshow("ima2", img2);
+    /*imshow("ima1", img1);
+    imshow("ima2", img2);*/
     
     if(img1.empty() || img2.empty())
     {
-        printf("Can't load all the images!");
+        printf("Can't load all the images! \n");
         return;
     }   
 

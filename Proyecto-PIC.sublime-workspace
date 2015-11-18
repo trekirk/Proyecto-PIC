@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"rea",
+				"readme"
+			],
+			[
 				"re",
 				"return"
 			],
@@ -32,34 +36,37 @@
 	"buffers":
 	[
 		{
-			"file": "prueba.cpp",
+			"file": "main.cpp",
 			"settings":
 			{
-				"buffer_size": 5637,
+				"buffer_size": 3936,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "movimiento.cpp",
+			"contents": "#include <iostream>\n#include <cstdio>\n#include <stdio.h>\n#include <vector>\n#include <string.h>\n#include <opencv/cv.hpp>\n#include <opencv2/opencv.hpp>\n#include <opencv2/core.hpp>\n#include <opencv2/highgui.hpp>\n#include \"opencv2/features2d/features2d.hpp\"\n#include \"opencv2/imgproc/imgproc.hpp\"\n#import cv2\n#define ESCAPE 27\n\nusing namespace cv;\nusing namespace std;\n\nnamespace vision\n{\n	void readme();\n\n	void matchORB(string image1, string image2);\n}",
+			"file": "proy_lib.h",
+			"file_size": 463,
+			"file_write_time": 130922605755775788,
 			"settings":
 			{
-				"buffer_size": 1330,
+				"buffer_size": 449,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "CMakeLists.txt",
+			"file": "/usr/include/opencv2/features2d/features2d.hpp",
 			"settings":
 			{
-				"buffer_size": 812,
+				"buffer_size": 63882,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/trekirk/Escritorio/CMakeLists.txt",
+			"file": "proy_lib.cpp",
 			"settings":
 			{
-				"buffer_size": 672,
+				"buffer_size": 2896,
 				"line_ending": "Unix"
 			}
 		}
@@ -91,6 +98,7 @@
 		"height": 139.0,
 		"history":
 		[
+			"make",
 			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
@@ -110,13 +118,20 @@
 	],
 	"file_history":
 	[
+		"/home/trekirk/catkin_ws/src/beacon_detection/CMakeLists.txt",
+		"/home/trekirk/OpenCV/Proyecto-PIC/CMakeLists.txt",
+		"/home/trekirk/Escritorio/Qt Creations/Entrega_Final_Alvaro_Munoz_Serrano_Juan_Jose_Gamboa_Montero/RobotArm/Point.cpp",
+		"/home/trekirk/Escritorio/Qt Creations/Entrega_Final_Alvaro_Munoz_Serrano_Juan_Jose_Gamboa_Montero/RobotArm/Point.h",
+		"/home/trekirk/OpenCV/Proyecto-PIC/main.cpp",
+		"/home/trekirk/OpenCV/Proyecto-PIC/proy_lib.h",
+		"/home/trekirk/OpenCV/Proyecto-PIC/proy_lib.cpp",
+		"/home/trekirk/OpenCV/Proyecto-PIC/prueba.cpp",
+		"/home/trekirk/Escritorio/CMakeLists.txt",
+		"/home/trekirk/catkin_ws/src/beacon_detection/src/beacondetpublisher.cpp",
+		"/home/trekirk/catkin_ws/src/beacon_detection/src/beacon.cpp",
 		"/home/trekirk/OpenCV/Proyecto-PIC/build/cmake_install.cmake",
 		"/home/trekirk/OpenCV/Proyecto-PIC/build/movimiento",
 		"/home/trekirk/OpenCV/Proyecto-PIC/build/CMakeCXXCompilerId",
-		"/home/trekirk/catkin_ws/src/beacon_detection/CMakeLists.txt",
-		"/home/trekirk/Escritorio/CMakeLists.txt",
-		"/home/trekirk/OpenCV/Proyecto-PIC/CMakeLists.txt",
-		"/home/trekirk/OpenCV/Proyecto-PIC/prueba.cpp",
 		"/home/trekirk/OpenCV/Proyecto-PIC/movimiento.cpp",
 		"/home/trekirk/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
 		"/home/trekirk/OpenCV/Proyecto-PIC/README.md",
@@ -160,19 +175,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "prueba.cpp",
+					"file": "main.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5637,
+						"buffer_size": 3936,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1024,
-								1024
+								329,
+								329
 							]
 						],
 						"settings":
@@ -182,7 +197,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 357.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -190,54 +205,24 @@
 				},
 				{
 					"buffer": 1,
-					"file": "movimiento.cpp",
+					"file": "proy_lib.h",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1330,
+						"buffer_size": 449,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								133,
-								133
+								401,
+								401
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "CMakeLists.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 812,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								303,
-								303
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CMake/CMake.tmLanguage"
+							"syntax": "Packages/C++/C++.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -247,28 +232,60 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/home/trekirk/Escritorio/CMakeLists.txt",
+					"buffer": 2,
+					"file": "/usr/include/opencv2/features2d/features2d.hpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 672,
+						"buffer_size": 63882,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								671,
-								671
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CMake/CMake.tmLanguage"
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 867.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "proy_lib.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2896,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								451,
+								451
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 102.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,

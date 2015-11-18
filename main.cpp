@@ -7,7 +7,8 @@ using namespace vision;
 /** @function main */
 int main( int argc, char** argv )
 {
-    matchORB("mandril.jpg", "mandril.jpg");
+    matchORB("left01.jpg", "right01.jpg");
+    matchORB("movil_1.png", "movil_1.png");
     cout<<"Funcionamiento correcto"<<endl;
 }
 

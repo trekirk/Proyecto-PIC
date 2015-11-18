@@ -9,7 +9,7 @@
 #include <opencv2/highgui.hpp>
 #include "opencv2/features2d/features2d.hpp"
 #include "opencv2/imgproc/imgproc.hpp"
-
+#import cv2
 #define ESCAPE 27
 
 using namespace cv;
@@ -18,6 +18,6 @@ using namespace std;
 namespace vision
 {
 	void readme();
-
+cv2.SURF(400);
 	void matchORB(string image1, string image2);
 }
