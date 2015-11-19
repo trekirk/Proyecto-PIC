@@ -1,15 +1,24 @@
+<<<<<<< HEAD:main.cpp
 #include "proy_lib.h"
 #include <vector>
 #include <iostream>
+=======
+#include "../include/proy_lib.h"
+>>>>>>> jj:src/main.cpp
 
 #define ESCAPE 27
 
 using namespace vision;
+<<<<<<< HEAD:main.cpp
 using namespace std;
+=======
+using namespace practica2;
+>>>>>>> jj:src/main.cpp
 
 //void ShadowsDetector2(Mat bgImg, Mat fgImg, Mat imgShadow);
 /** @function main */
 int main( int argc, char** argv )
+<<<<<<< HEAD:main.cpp
 { 
 	
 	Mat img1 = imread("m1.jpg", cv::IMREAD_COLOR);
@@ -122,6 +131,91 @@ Mat h_hist, s_hist, v_hist;
     original_hist.release();
     normalized_hist.release();
     equalized_normalized_hist.release();
+=======
+{
+    //matchSURF("baboon200_rotated.jpg", "baboon200.jpg");
+    ejercicio1();
+    ejercicio2();
+    ejercicio3();
+    ejercicio4();
+
+    //matchORB("baboon200_rotated.jpg", "baboon200.jpg");
+    cout<<"Funcionamiento correcto"<<endl;
+}
+
+/** @function readme */
+
+/*
+int main()
+{
+    //object
+   /* Mat img;
+
+    img = cv::imread("mandril.jpg");
+
+    if (!img.data){
+        cout << "error loading image" << endl;
+        return 1;
+    }
+
+    namedWindow("original", WINDOW_AUTOSIZE);
+
+    imshow("original", img);
+
+    waitKey(0);
+
+    destroyWindow("original");
+    return 0;
+    cout<<"Buenas tardes tenga usted"<<endl;
+    piruleta();
+
+    Mat img_original;
+
+    img_original = imread("mandril.jpg", 0);
+    if (!img_original.data){
+        cout << "error loading image" << endl;
+        return 1;
+    }
+
+    namedWindow("original", WINDOW_AUTOSIZE);
+    namedWindow("histogram", WINDOW_AUTOSIZE);
+
+    int histSize = 256;
+    float range[] = { 0, 255 };
+    const float *ranges[] = { range };
+
+    Mat hist;
+    calcHist(&img_original, 1, 0, Mat(), hist, 1, &histSize, ranges, true, false);
+
+
+    double total;
+    total = img_original.rows *img_original.cols;
+    for (int h = 0; h < histSize; h++)
+    {
+        float binVal = hist.at<float>(h);
+        cout << " " << binVal;
+    }
+
+    int hist_w = 512; int hist_h = 400;
+    int bin_w = cvRound((double)hist_w / histSize);
+
+    Mat histImage(hist_h, hist_w, CV_8UC1, Scalar(0, 0, 0));
+
+    normalize(hist, hist, 0, histImage.rows, NORM_MINMAX, -1, Mat());
+
+    for (int i = 1; i < histSize; i++)
+    {
+        line(histImage, Point(bin_w*(i - 1), hist_h - cvRound(hist.at<float>(i - 1))),
+            Point(bin_w*(i), hist_h - cvRound(hist.at<float>(i))),
+            Scalar(255, 0, 0), 2, 8, 0);
+    }
+
+    imshow("original", img_original);
+    imshow("histogram", histImage);
+
+    waitKey(0);
+
+>>>>>>> jj:src/main.cpp
     destroyAllWindows();
     return 0;
 }

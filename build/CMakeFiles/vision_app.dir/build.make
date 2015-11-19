@@ -49,6 +49,7 @@ include CMakeFiles/vision_app.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/vision_app.dir/flags.make
 
+<<<<<<< HEAD
 CMakeFiles/vision_app.dir/main.cpp.o: CMakeFiles/vision_app.dir/flags.make
 CMakeFiles/vision_app.dir/main.cpp.o: ../main.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/build/CMakeFiles $(CMAKE_PROGRESS_1)
@@ -62,30 +63,70 @@ CMakeFiles/vision_app.dir/main.cpp.i: cmake_force
 CMakeFiles/vision_app.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vision_app.dir/main.cpp.s"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/main.cpp -o CMakeFiles/vision_app.dir/main.cpp.s
+=======
+CMakeFiles/vision_app.dir/src/main.cpp.o: CMakeFiles/vision_app.dir/flags.make
+CMakeFiles/vision_app.dir/src/main.cpp.o: ../src/main.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/vision_app.dir/src/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vision_app.dir/src/main.cpp.o -c /home/trekirk/OpenCV/Proyecto-PIC/src/main.cpp
 
-CMakeFiles/vision_app.dir/main.cpp.o.requires:
-.PHONY : CMakeFiles/vision_app.dir/main.cpp.o.requires
+CMakeFiles/vision_app.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vision_app.dir/src/main.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/trekirk/OpenCV/Proyecto-PIC/src/main.cpp > CMakeFiles/vision_app.dir/src/main.cpp.i
 
-CMakeFiles/vision_app.dir/main.cpp.o.provides: CMakeFiles/vision_app.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/vision_app.dir/build.make CMakeFiles/vision_app.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/vision_app.dir/main.cpp.o.provides
+CMakeFiles/vision_app.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vision_app.dir/src/main.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/trekirk/OpenCV/Proyecto-PIC/src/main.cpp -o CMakeFiles/vision_app.dir/src/main.cpp.s
+>>>>>>> jj
 
-CMakeFiles/vision_app.dir/main.cpp.o.provides.build: CMakeFiles/vision_app.dir/main.cpp.o
+CMakeFiles/vision_app.dir/src/main.cpp.o.requires:
+.PHONY : CMakeFiles/vision_app.dir/src/main.cpp.o.requires
+
+CMakeFiles/vision_app.dir/src/main.cpp.o.provides: CMakeFiles/vision_app.dir/src/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/vision_app.dir/build.make CMakeFiles/vision_app.dir/src/main.cpp.o.provides.build
+.PHONY : CMakeFiles/vision_app.dir/src/main.cpp.o.provides
+
+CMakeFiles/vision_app.dir/src/main.cpp.o.provides.build: CMakeFiles/vision_app.dir/src/main.cpp.o
 
 # Object files for target vision_app
 vision_app_OBJECTS = \
-"CMakeFiles/vision_app.dir/main.cpp.o"
+"CMakeFiles/vision_app.dir/src/main.cpp.o"
 
 # External object files for target vision_app
 vision_app_EXTERNAL_OBJECTS =
 
-vision_app: CMakeFiles/vision_app.dir/main.cpp.o
+vision_app: CMakeFiles/vision_app.dir/src/main.cpp.o
 vision_app: CMakeFiles/vision_app.dir/build.make
 vision_app: libProyecto-PIC.a
+<<<<<<< HEAD
+=======
+vision_app: /usr/local/lib/libopencv_xphoto.so.3.0.0
+vision_app: /usr/local/lib/libopencv_xobjdetect.so.3.0.0
+vision_app: /usr/local/lib/libopencv_ximgproc.so.3.0.0
+vision_app: /usr/local/lib/libopencv_xfeatures2d.so.3.0.0
+vision_app: /usr/local/lib/libopencv_tracking.so.3.0.0
+vision_app: /usr/local/lib/libopencv_text.so.3.0.0
+vision_app: /usr/local/lib/libopencv_surface_matching.so.3.0.0
+vision_app: /usr/local/lib/libopencv_structured_light.so.3.0.0
+vision_app: /usr/local/lib/libopencv_stereo.so.3.0.0
+vision_app: /usr/local/lib/libopencv_saliency.so.3.0.0
+vision_app: /usr/local/lib/libopencv_rgbd.so.3.0.0
+vision_app: /usr/local/lib/libopencv_reg.so.3.0.0
+vision_app: /usr/local/lib/libopencv_optflow.so.3.0.0
+vision_app: /usr/local/lib/libopencv_line_descriptor.so.3.0.0
+vision_app: /usr/local/lib/libopencv_face.so.3.0.0
+vision_app: /usr/local/lib/libopencv_dpm.so.3.0.0
+vision_app: /usr/local/lib/libopencv_dnn.so.3.0.0
+vision_app: /usr/local/lib/libopencv_datasets.so.3.0.0
+vision_app: /usr/local/lib/libopencv_ccalib.so.3.0.0
+vision_app: /usr/local/lib/libopencv_bioinspired.so.3.0.0
+vision_app: /usr/local/lib/libopencv_bgsegm.so.3.0.0
+vision_app: /usr/local/lib/libopencv_aruco.so.3.0.0
+vision_app: /usr/local/lib/libopencv_viz.so.3.0.0
+>>>>>>> jj
 vision_app: /usr/local/lib/libopencv_videostab.so.3.0.0
 vision_app: /usr/local/lib/libopencv_videoio.so.3.0.0
 vision_app: /usr/local/lib/libopencv_video.so.3.0.0
-vision_app: /usr/local/lib/libopencv_ts.a
 vision_app: /usr/local/lib/libopencv_superres.so.3.0.0
 vision_app: /usr/local/lib/libopencv_stitching.so.3.0.0
 vision_app: /usr/local/lib/libopencv_shape.so.3.0.0
@@ -95,25 +136,29 @@ vision_app: /usr/local/lib/libopencv_ml.so.3.0.0
 vision_app: /usr/local/lib/libopencv_imgproc.so.3.0.0
 vision_app: /usr/local/lib/libopencv_imgcodecs.so.3.0.0
 vision_app: /usr/local/lib/libopencv_highgui.so.3.0.0
+vision_app: /usr/local/lib/libopencv_hal.a
 vision_app: /usr/local/lib/libopencv_flann.so.3.0.0
 vision_app: /usr/local/lib/libopencv_features2d.so.3.0.0
 vision_app: /usr/local/lib/libopencv_core.so.3.0.0
 vision_app: /usr/local/lib/libopencv_calib3d.so.3.0.0
-vision_app: /usr/lib/x86_64-linux-gnu/libGLU.so
-vision_app: /usr/lib/x86_64-linux-gnu/libGL.so
-vision_app: /usr/lib/x86_64-linux-gnu/libSM.so
-vision_app: /usr/lib/x86_64-linux-gnu/libICE.so
-vision_app: /usr/lib/x86_64-linux-gnu/libX11.so
-vision_app: /usr/lib/x86_64-linux-gnu/libXext.so
-vision_app: /usr/local/share/OpenCV/3rdparty/lib/libippicv.a
+vision_app: /usr/local/lib/libopencv_text.so.3.0.0
+vision_app: /usr/local/lib/libopencv_face.so.3.0.0
+vision_app: /usr/local/lib/libopencv_ximgproc.so.3.0.0
+vision_app: /usr/local/lib/libopencv_xfeatures2d.so.3.0.0
+vision_app: /usr/local/lib/libopencv_shape.so.3.0.0
+vision_app: /usr/local/lib/libopencv_video.so.3.0.0
+vision_app: /usr/local/lib/libopencv_objdetect.so.3.0.0
+vision_app: /usr/local/lib/libopencv_calib3d.so.3.0.0
 vision_app: /usr/local/lib/libopencv_features2d.so.3.0.0
+vision_app: /usr/local/lib/libopencv_ml.so.3.0.0
 vision_app: /usr/local/lib/libopencv_highgui.so.3.0.0
 vision_app: /usr/local/lib/libopencv_videoio.so.3.0.0
 vision_app: /usr/local/lib/libopencv_imgcodecs.so.3.0.0
-vision_app: /usr/local/lib/libopencv_flann.so.3.0.0
-vision_app: /usr/local/lib/libopencv_video.so.3.0.0
 vision_app: /usr/local/lib/libopencv_imgproc.so.3.0.0
+vision_app: /usr/local/lib/libopencv_flann.so.3.0.0
 vision_app: /usr/local/lib/libopencv_core.so.3.0.0
+vision_app: /usr/local/lib/libopencv_hal.a
+vision_app: /usr/local/share/OpenCV/3rdparty/lib/libippicv.a
 vision_app: CMakeFiles/vision_app.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable vision_app"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vision_app.dir/link.txt --verbose=$(VERBOSE)
@@ -122,7 +167,7 @@ vision_app: CMakeFiles/vision_app.dir/link.txt
 CMakeFiles/vision_app.dir/build: vision_app
 .PHONY : CMakeFiles/vision_app.dir/build
 
-CMakeFiles/vision_app.dir/requires: CMakeFiles/vision_app.dir/main.cpp.o.requires
+CMakeFiles/vision_app.dir/requires: CMakeFiles/vision_app.dir/src/main.cpp.o.requires
 .PHONY : CMakeFiles/vision_app.dir/requires
 
 CMakeFiles/vision_app.dir/clean:

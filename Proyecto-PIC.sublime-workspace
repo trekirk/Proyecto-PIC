@@ -5,7 +5,159 @@
 		[
 			[
 				"re",
-				"return"
+				"release"
+			],
+			[
+				"hist",
+				"histImage"
+			],
+			[
+				"or",
+				"original_img"
+			],
+			[
+				"im",
+				"imshow"
+			],
+			[
+				"hist_",
+				"hist_h"
+			],
+			[
+				"bin",
+				"bin_w"
+			],
+			[
+				"max",
+				"max_point"
+			],
+			[
+				"min",
+				"min_point"
+			],
+			[
+				"norma",
+				"normalized_hist"
+			],
+			[
+				"norm",
+				"normalized_hist"
+			],
+			[
+				"original",
+				"original_hist"
+			],
+			[
+				"hi",
+				"histRange"
+			],
+			[
+				"his",
+				"histSize"
+			],
+			[
+				"ori",
+				"original_hist"
+			],
+			[
+				"CV_8UC",
+				"CV_8UC3"
+			],
+			[
+				"IML",
+				"IMREAD_GRAYSCALE"
+			],
+			[
+				"hit",
+				"histImage"
+			],
+			[
+				"cv",
+				"cvRound"
+			],
+			[
+				"p",
+				"Point"
+			],
+			[
+				"CV",
+				"CV_8UC3"
+			],
+			[
+				"h",
+				"h_hist"
+			],
+			[
+				"v",
+				"v_channel"
+			],
+			[
+				"s",
+				"s_channel"
+			],
+			[
+				"IMRE",
+				"IMREAD_COLOR"
+			],
+			[
+				"mandril",
+				"mandril_c"
+			],
+			[
+				"r",
+				"r_channel"
+			],
+			[
+				"cor",
+				"color_img"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"name",
+				"namedWindow"
+			],
+			[
+				"b",
+				"b_channel"
+			],
+			[
+				"g",
+				"g_channel"
+			],
+			[
+				"imre",
+				"imread"
+			],
+			[
+				"nam",
+				"namedWindow"
+			],
+			[
+				"en",
+				"endl"
+			],
+			[
+				"ch",
+				"CV_CHAIN_APPROX_SIMPLE"
+			],
+			[
+				"gray",
+				"gray_img"
+			],
+			[
+				"color",
+				"color_img"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"rea",
+				"readme"
 			],
 			[
 				"Surf",
@@ -14,10 +166,6 @@
 			[
 				"Descr",
 				"SurfDescriptorExtractor"
-			],
-			[
-				"hist",
-				"histogram"
 			],
 			[
 				"F",
@@ -32,34 +180,26 @@
 	"buffers":
 	[
 		{
-			"file": "prueba.cpp",
+			"file": "main.cpp",
 			"settings":
 			{
-				"buffer_size": 5637,
+				"buffer_size": 4056,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "movimiento.cpp",
+			"file": "proy_lib.h",
 			"settings":
 			{
-				"buffer_size": 1330,
+				"buffer_size": 644,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "CMakeLists.txt",
+			"file": "proy_lib.cpp",
 			"settings":
 			{
-				"buffer_size": 812,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/trekirk/Escritorio/CMakeLists.txt",
-			"settings":
-			{
-				"buffer_size": 672,
+				"buffer_size": 10211,
 				"line_ending": "Unix"
 			}
 		}
@@ -91,6 +231,7 @@
 		"height": 139.0,
 		"history":
 		[
+			"make",
 			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
@@ -110,13 +251,32 @@
 	],
 	"file_history":
 	[
+		"/usr/local/include/opencv2/xfeatures2d/nonfree.hpp",
+		"/usr/include/opencv2/features2d/features2d.hpp",
+		"/usr/include/opencv2/contrib/contrib.hpp",
+		"/home/trekirk/opencv/opencv_contrib/modules/contrib_world/CMakeLists.txt",
+		"/home/trekirk/opencv/opencv-3.0.0-alpha/include/CMakeLists.txt",
+		"/home/trekirk/opencv/opencv-3.0.0-alpha/CMakeLists.txt",
+		"/home/trekirk/opencv/opencv-3.0.0-alpha/build/opencv2/opencv_modules.hpp",
+		"/home/trekirk/opencv/opencv_contrib/modules/xfeatures2d/CMakeLists.txt",
+		"/home/trekirk/opencv/opencv/include/opencv2/opencv.hpp",
+		"/usr/include/opencv2/videostab/deblurring.hpp",
+		"/home/trekirk/opencv/opencv_contrib/modules/xfeatures2d/src/surf.cpp",
+		"/home/trekirk/opencv/opencv-3.0.0-alpha/include/opencv2/opencv.hpp",
+		"/home/trekirk/catkin_ws/src/beacon_detection/CMakeLists.txt",
+		"/home/trekirk/OpenCV/Proyecto-PIC/CMakeLists.txt",
+		"/home/trekirk/Escritorio/Qt Creations/Entrega_Final_Alvaro_Munoz_Serrano_Juan_Jose_Gamboa_Montero/RobotArm/Point.cpp",
+		"/home/trekirk/Escritorio/Qt Creations/Entrega_Final_Alvaro_Munoz_Serrano_Juan_Jose_Gamboa_Montero/RobotArm/Point.h",
+		"/home/trekirk/OpenCV/Proyecto-PIC/main.cpp",
+		"/home/trekirk/OpenCV/Proyecto-PIC/proy_lib.h",
+		"/home/trekirk/OpenCV/Proyecto-PIC/proy_lib.cpp",
+		"/home/trekirk/OpenCV/Proyecto-PIC/prueba.cpp",
+		"/home/trekirk/Escritorio/CMakeLists.txt",
+		"/home/trekirk/catkin_ws/src/beacon_detection/src/beacondetpublisher.cpp",
+		"/home/trekirk/catkin_ws/src/beacon_detection/src/beacon.cpp",
 		"/home/trekirk/OpenCV/Proyecto-PIC/build/cmake_install.cmake",
 		"/home/trekirk/OpenCV/Proyecto-PIC/build/movimiento",
 		"/home/trekirk/OpenCV/Proyecto-PIC/build/CMakeCXXCompilerId",
-		"/home/trekirk/catkin_ws/src/beacon_detection/CMakeLists.txt",
-		"/home/trekirk/Escritorio/CMakeLists.txt",
-		"/home/trekirk/OpenCV/Proyecto-PIC/CMakeLists.txt",
-		"/home/trekirk/OpenCV/Proyecto-PIC/prueba.cpp",
 		"/home/trekirk/OpenCV/Proyecto-PIC/movimiento.cpp",
 		"/home/trekirk/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
 		"/home/trekirk/OpenCV/Proyecto-PIC/README.md",
@@ -124,7 +284,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -155,24 +315,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "prueba.cpp",
+					"file": "main.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5637,
+						"buffer_size": 4056,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1024,
-								1024
+								257,
+								257
 							]
 						],
 						"settings":
@@ -181,37 +341,7 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 357.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "movimiento.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1330,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								133,
-								133
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
+						"translation.x": -0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -219,25 +349,25 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "CMakeLists.txt",
+					"buffer": 1,
+					"file": "proy_lib.h",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 812,
+						"buffer_size": 644,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								303,
-								303
+								549,
+								549
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CMake/CMake.tmLanguage"
+							"syntax": "Packages/C++/C++.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -247,31 +377,33 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/home/trekirk/Escritorio/CMakeLists.txt",
+					"buffer": 2,
+					"file": "proy_lib.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 672,
+						"buffer_size": 10211,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								671,
-								671
+								5348,
+								5348
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CMake/CMake.tmLanguage"
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2886.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -279,7 +411,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 25.0
 	},
 	"input":
 	{
@@ -316,7 +448,7 @@
 	"project": "Proyecto-PIC.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":

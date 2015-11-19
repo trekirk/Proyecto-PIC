@@ -4,7 +4,11 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
+<<<<<<< HEAD
   "/home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/main.cpp" "/home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/build/CMakeFiles/vision_app.dir/main.cpp.o"
+=======
+  "/home/trekirk/OpenCV/Proyecto-PIC/src/main.cpp" "/home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles/vision_app.dir/src/main.cpp.o"
+>>>>>>> jj
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,6 +19,8 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
+  "/usr/local/include/opencv"
+  "/usr/local/include"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
