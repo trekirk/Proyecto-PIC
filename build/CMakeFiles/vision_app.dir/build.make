@@ -49,37 +49,37 @@ include CMakeFiles/vision_app.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/vision_app.dir/flags.make
 
-CMakeFiles/vision_app.dir/main.cpp.o: CMakeFiles/vision_app.dir/flags.make
-CMakeFiles/vision_app.dir/main.cpp.o: ../main.cpp
+CMakeFiles/vision_app.dir/src/main.cpp.o: CMakeFiles/vision_app.dir/flags.make
+CMakeFiles/vision_app.dir/src/main.cpp.o: ../src/main.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/vision_app.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vision_app.dir/main.cpp.o -c /home/trekirk/OpenCV/Proyecto-PIC/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/vision_app.dir/src/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vision_app.dir/src/main.cpp.o -c /home/trekirk/OpenCV/Proyecto-PIC/src/main.cpp
 
-CMakeFiles/vision_app.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vision_app.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/trekirk/OpenCV/Proyecto-PIC/main.cpp > CMakeFiles/vision_app.dir/main.cpp.i
+CMakeFiles/vision_app.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vision_app.dir/src/main.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/trekirk/OpenCV/Proyecto-PIC/src/main.cpp > CMakeFiles/vision_app.dir/src/main.cpp.i
 
-CMakeFiles/vision_app.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vision_app.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/trekirk/OpenCV/Proyecto-PIC/main.cpp -o CMakeFiles/vision_app.dir/main.cpp.s
+CMakeFiles/vision_app.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vision_app.dir/src/main.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/trekirk/OpenCV/Proyecto-PIC/src/main.cpp -o CMakeFiles/vision_app.dir/src/main.cpp.s
 
-CMakeFiles/vision_app.dir/main.cpp.o.requires:
-.PHONY : CMakeFiles/vision_app.dir/main.cpp.o.requires
+CMakeFiles/vision_app.dir/src/main.cpp.o.requires:
+.PHONY : CMakeFiles/vision_app.dir/src/main.cpp.o.requires
 
-CMakeFiles/vision_app.dir/main.cpp.o.provides: CMakeFiles/vision_app.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/vision_app.dir/build.make CMakeFiles/vision_app.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/vision_app.dir/main.cpp.o.provides
+CMakeFiles/vision_app.dir/src/main.cpp.o.provides: CMakeFiles/vision_app.dir/src/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/vision_app.dir/build.make CMakeFiles/vision_app.dir/src/main.cpp.o.provides.build
+.PHONY : CMakeFiles/vision_app.dir/src/main.cpp.o.provides
 
-CMakeFiles/vision_app.dir/main.cpp.o.provides.build: CMakeFiles/vision_app.dir/main.cpp.o
+CMakeFiles/vision_app.dir/src/main.cpp.o.provides.build: CMakeFiles/vision_app.dir/src/main.cpp.o
 
 # Object files for target vision_app
 vision_app_OBJECTS = \
-"CMakeFiles/vision_app.dir/main.cpp.o"
+"CMakeFiles/vision_app.dir/src/main.cpp.o"
 
 # External object files for target vision_app
 vision_app_EXTERNAL_OBJECTS =
 
-vision_app: CMakeFiles/vision_app.dir/main.cpp.o
+vision_app: CMakeFiles/vision_app.dir/src/main.cpp.o
 vision_app: CMakeFiles/vision_app.dir/build.make
 vision_app: libProyecto-PIC.a
 vision_app: /usr/local/lib/libopencv_xphoto.so.3.0.0
@@ -148,7 +148,7 @@ vision_app: CMakeFiles/vision_app.dir/link.txt
 CMakeFiles/vision_app.dir/build: vision_app
 .PHONY : CMakeFiles/vision_app.dir/build
 
-CMakeFiles/vision_app.dir/requires: CMakeFiles/vision_app.dir/main.cpp.o.requires
+CMakeFiles/vision_app.dir/requires: CMakeFiles/vision_app.dir/src/main.cpp.o.requires
 .PHONY : CMakeFiles/vision_app.dir/requires
 
 CMakeFiles/vision_app.dir/clean:

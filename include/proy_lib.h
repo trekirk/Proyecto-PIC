@@ -12,6 +12,8 @@
 #include "opencv2/xfeatures2d/nonfree.hpp"
 
 #define ESCAPE 27
+#define IMG_1_PATH "/home/trekirk/OpenCV/Proyecto-PIC/samples/*.jpg"
+#define IMG_2_PATH "/home/trekirk/OpenCV/Proyecto-PIC/samples/*.jpg"
 
 using namespace cv;
 using namespace std;

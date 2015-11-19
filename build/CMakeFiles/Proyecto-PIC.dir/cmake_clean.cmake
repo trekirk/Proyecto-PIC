@@ -1,5 +1,5 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.o"
+  "CMakeFiles/Proyecto-PIC.dir/src/proy_lib.cpp.o"
   "libProyecto-PIC.pdb"
   "libProyecto-PIC.a"
 )

@@ -1,5 +1,5 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/vision_app.dir/main.cpp.o"
+  "CMakeFiles/vision_app.dir/src/main.cpp.o"
   "vision_app.pdb"
   "vision_app"
 )

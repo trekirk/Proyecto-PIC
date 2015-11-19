@@ -124,53 +124,53 @@ vision_app/fast:
 	$(MAKE) -f CMakeFiles/vision_app.dir/build.make CMakeFiles/vision_app.dir/build
 .PHONY : vision_app/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/vision_app.dir/build.make CMakeFiles/vision_app.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/vision_app.dir/build.make CMakeFiles/vision_app.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/vision_app.dir/build.make CMakeFiles/vision_app.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/vision_app.dir/build.make CMakeFiles/vision_app.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/vision_app.dir/build.make CMakeFiles/vision_app.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/vision_app.dir/build.make CMakeFiles/vision_app.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
-proy_lib.o: proy_lib.cpp.o
-.PHONY : proy_lib.o
+src/proy_lib.o: src/proy_lib.cpp.o
+.PHONY : src/proy_lib.o
 
 # target to build an object file
-proy_lib.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto-PIC.dir/build.make CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.o
-.PHONY : proy_lib.cpp.o
+src/proy_lib.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto-PIC.dir/build.make CMakeFiles/Proyecto-PIC.dir/src/proy_lib.cpp.o
+.PHONY : src/proy_lib.cpp.o
 
-proy_lib.i: proy_lib.cpp.i
-.PHONY : proy_lib.i
+src/proy_lib.i: src/proy_lib.cpp.i
+.PHONY : src/proy_lib.i
 
 # target to preprocess a source file
-proy_lib.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto-PIC.dir/build.make CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.i
-.PHONY : proy_lib.cpp.i
+src/proy_lib.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto-PIC.dir/build.make CMakeFiles/Proyecto-PIC.dir/src/proy_lib.cpp.i
+.PHONY : src/proy_lib.cpp.i
 
-proy_lib.s: proy_lib.cpp.s
-.PHONY : proy_lib.s
+src/proy_lib.s: src/proy_lib.cpp.s
+.PHONY : src/proy_lib.s
 
 # target to generate assembly for a file
-proy_lib.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto-PIC.dir/build.make CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.s
-.PHONY : proy_lib.cpp.s
+src/proy_lib.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto-PIC.dir/build.make CMakeFiles/Proyecto-PIC.dir/src/proy_lib.cpp.s
+.PHONY : src/proy_lib.cpp.s
 
 # Help Target
 help:
@@ -182,12 +182,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... vision_app"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... proy_lib.o"
-	@echo "... proy_lib.i"
-	@echo "... proy_lib.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/proy_lib.o"
+	@echo "... src/proy_lib.i"
+	@echo "... src/proy_lib.s"
 .PHONY : help
 
 

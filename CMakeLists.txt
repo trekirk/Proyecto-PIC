@@ -2,9 +2,9 @@ cmake_minimum_required(VERSION 2.8)
 project( Proyecto-PIC )
 find_package( OpenCV REQUIRED )
 add_library(Proyecto-PIC
-  proy_lib.cpp
+  src/proy_lib.cpp
 )
-add_executable( vision_app main.cpp )
+add_executable( vision_app src/main.cpp )
 target_link_libraries( vision_app
  Proyecto-PIC
  ${OpenCV_LIBS} )

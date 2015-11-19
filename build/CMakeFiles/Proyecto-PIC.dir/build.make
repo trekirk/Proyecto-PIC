@@ -49,37 +49,37 @@ include CMakeFiles/Proyecto-PIC.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Proyecto-PIC.dir/flags.make
 
-CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.o: CMakeFiles/Proyecto-PIC.dir/flags.make
-CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.o: ../proy_lib.cpp
+CMakeFiles/Proyecto-PIC.dir/src/proy_lib.cpp.o: CMakeFiles/Proyecto-PIC.dir/flags.make
+CMakeFiles/Proyecto-PIC.dir/src/proy_lib.cpp.o: ../src/proy_lib.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.o -c /home/trekirk/OpenCV/Proyecto-PIC/proy_lib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Proyecto-PIC.dir/src/proy_lib.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Proyecto-PIC.dir/src/proy_lib.cpp.o -c /home/trekirk/OpenCV/Proyecto-PIC/src/proy_lib.cpp
 
-CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/trekirk/OpenCV/Proyecto-PIC/proy_lib.cpp > CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.i
+CMakeFiles/Proyecto-PIC.dir/src/proy_lib.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto-PIC.dir/src/proy_lib.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/trekirk/OpenCV/Proyecto-PIC/src/proy_lib.cpp > CMakeFiles/Proyecto-PIC.dir/src/proy_lib.cpp.i
 
-CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/trekirk/OpenCV/Proyecto-PIC/proy_lib.cpp -o CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.s
+CMakeFiles/Proyecto-PIC.dir/src/proy_lib.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto-PIC.dir/src/proy_lib.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/trekirk/OpenCV/Proyecto-PIC/src/proy_lib.cpp -o CMakeFiles/Proyecto-PIC.dir/src/proy_lib.cpp.s
 
-CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.o.requires:
-.PHONY : CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.o.requires
+CMakeFiles/Proyecto-PIC.dir/src/proy_lib.cpp.o.requires:
+.PHONY : CMakeFiles/Proyecto-PIC.dir/src/proy_lib.cpp.o.requires
 
-CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.o.provides: CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Proyecto-PIC.dir/build.make CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.o.provides.build
-.PHONY : CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.o.provides
+CMakeFiles/Proyecto-PIC.dir/src/proy_lib.cpp.o.provides: CMakeFiles/Proyecto-PIC.dir/src/proy_lib.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Proyecto-PIC.dir/build.make CMakeFiles/Proyecto-PIC.dir/src/proy_lib.cpp.o.provides.build
+.PHONY : CMakeFiles/Proyecto-PIC.dir/src/proy_lib.cpp.o.provides
 
-CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.o.provides.build: CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.o
+CMakeFiles/Proyecto-PIC.dir/src/proy_lib.cpp.o.provides.build: CMakeFiles/Proyecto-PIC.dir/src/proy_lib.cpp.o
 
 # Object files for target Proyecto-PIC
 Proyecto__PIC_OBJECTS = \
-"CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.o"
+"CMakeFiles/Proyecto-PIC.dir/src/proy_lib.cpp.o"
 
 # External object files for target Proyecto-PIC
 Proyecto__PIC_EXTERNAL_OBJECTS =
 
-libProyecto-PIC.a: CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.o
+libProyecto-PIC.a: CMakeFiles/Proyecto-PIC.dir/src/proy_lib.cpp.o
 libProyecto-PIC.a: CMakeFiles/Proyecto-PIC.dir/build.make
 libProyecto-PIC.a: CMakeFiles/Proyecto-PIC.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libProyecto-PIC.a"
@@ -90,7 +90,7 @@ libProyecto-PIC.a: CMakeFiles/Proyecto-PIC.dir/link.txt
 CMakeFiles/Proyecto-PIC.dir/build: libProyecto-PIC.a
 .PHONY : CMakeFiles/Proyecto-PIC.dir/build
 
-CMakeFiles/Proyecto-PIC.dir/requires: CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.o.requires
+CMakeFiles/Proyecto-PIC.dir/requires: CMakeFiles/Proyecto-PIC.dir/src/proy_lib.cpp.o.requires
 .PHONY : CMakeFiles/Proyecto-PIC.dir/requires
 
 CMakeFiles/Proyecto-PIC.dir/clean:

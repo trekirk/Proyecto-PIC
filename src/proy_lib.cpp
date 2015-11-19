@@ -1,4 +1,4 @@
-#include "proy_lib.h"
+#include "../include/proy_lib.h"
 
 namespace vision
 {
