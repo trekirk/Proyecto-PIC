@@ -1,0 +1,434 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"equ",
+				"equalized_normalized_hist"
+			],
+			[
+				"equa",
+				"equalized_hist"
+			],
+			[
+				"his",
+				"histRange"
+			],
+			[
+				"E",
+				"equalized_img"
+			],
+			[
+				"orig",
+				"original_hist"
+			],
+			[
+				"re",
+				"release"
+			],
+			[
+				"hi",
+				"histImage"
+			],
+			[
+				"origina",
+				"original_img"
+			],
+			[
+				"cv",
+				"cvRound"
+			],
+			[
+				"bin",
+				"bin_w"
+			],
+			[
+				"min",
+				"min_point"
+			],
+			[
+				"hist",
+				"histImage"
+			],
+			[
+				"norm",
+				"normalized_hist"
+			],
+			[
+				"max",
+				"max_point"
+			],
+			[
+				"mi",
+				"min_point"
+			],
+			[
+				"original",
+				"original_hist"
+			],
+			[
+				"b",
+				"b_chann"
+			],
+			[
+				"g",
+				"g_chann"
+			],
+			[
+				"Shado",
+				"ShadowsDetector2"
+			],
+			[
+				"im",
+				"imread"
+			],
+			[
+				"image",
+				"image1"
+			],
+			[
+				"img",
+				"img_m2_1"
+			],
+			[
+				"img_m1",
+				"img_m1_1"
+			],
+			[
+				"img_m2",
+				"img_m2_1"
+			],
+			[
+				"img_",
+				"img_m1_1"
+			],
+			[
+				"es",
+				"escalada2"
+			],
+			[
+				"esca",
+				"escalada1"
+			],
+			[
+				"escalad",
+				"escalada1"
+			],
+			[
+				"escala",
+				"escalada2"
+			],
+			[
+				"size",
+				"size"
+			],
+			[
+				"cont",
+				"contours"
+			],
+			[
+				"fr",
+				"frame_gray"
+			],
+			[
+				"frame",
+				"frame_gray"
+			],
+			[
+				"fra",
+				"frame_gray"
+			],
+			[
+				"open",
+				"opencv2"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/juanmanuel/Documentos/OCV_projects/fig_geometricas.cpp",
+			"settings":
+			{
+				"buffer_size": 1175,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"file": "main.cpp",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "proy_lib.cpp",
+			"settings":
+			{
+				"buffer_size": 2509,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "proy_lib.h",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/juanmanuel/Documentos/OCV_projects/main.cpp",
+		"/home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/proy_lib.h",
+		"/home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/opencv_prj.sublime-project",
+		"/home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/main.cpp",
+		"/home/juanmanuel/Documentos/OCV_projects/movimiento.cpp",
+		"/home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/main_jm.cpp",
+		"/home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/proy_lib.cpp",
+		"/home/juanmanuel/Documentos/OCV_projects/mouse.cpp",
+		"/home/juanmanuel/Documentos/OCV_projects/fig_geometricas.cpp",
+		"/tmp/.fr-JELnlY/Main.cpp",
+		"/home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/prueba.cpp",
+		"/tmp/.fr-tu530H/DetectorCirculos.cpp",
+		"/tmp/.fr-blPZs5/deteccion de figuras.cpp",
+		"/home/juanmanuel/.config/sublime-text-2/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/juanmanuel/Documentos/OCV_projects/fig_geometricas.cpp",
+					"settings":
+					{
+						"buffer_size": 1175,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								178,
+								178
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "main.cpp",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "proy_lib.cpp",
+					"settings":
+					{
+						"buffer_size": 2509,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								256,
+								256
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 69.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "proy_lib.h",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 466.0,
+	"status_bar_visible": true
+}

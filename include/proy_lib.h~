@@ -24,8 +24,9 @@ namespace vision
 	void readme();
 
 	void matchORB(Mat img1, Mat img2);
-
-	void matchSURF(Mat img1, Mat img2);
+}
+	void matchORB(string image1, string image2);
+	void matchSURF(string image1, string image2);
 }
 
 namespace practica2

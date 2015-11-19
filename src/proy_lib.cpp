@@ -7,11 +7,9 @@ namespace vision
     std::cout << " Usage: ./ORB_detector <img1> <img2>" << std::endl; 
   }
 
-  void matchSURF(string image1, string image2)
+  void matchSURF(Mat img1, Mat img2)
   {
 
-    Mat img_1 = imread( image1, IMREAD_GRAYSCALE );
-    Mat img_2 = imread( image2, IMREAD_GRAYSCALE );
 
     if( !img_1.data || !img_2.data )
     { std::cout<< " --(!) Error reading images " << std::endl; return; }
@@ -57,14 +55,14 @@ namespace vision
     return;
   }
 
-  void matchORB(string image1, string image2)
+  void matchORB(Mat img1, Mat img2)
   {
 
     readme();
-    Mat img1 = imread(image1, IMREAD_GRAYSCALE);
-    Mat img2 = imread(image2, IMREAD_GRAYSCALE);
+   
     namedWindow("ima1", WINDOW_AUTOSIZE);
     namedWindow("ima2", WINDOW_AUTOSIZE);
+
     imshow("ima1", img1);
     imshow("ima2", img2);
     
@@ -100,12 +98,13 @@ namespace vision
     return;
   }
 
-    void contours(string image)
+    void contours(Mat img)
     {
-      Mat img, img_canny, drawing;
-      img = imread(image);
+      Mat img_canny, drawing;
+      
       namedWindow( "Demonio Tasmania", cv::WINDOW_AUTOSIZE );
       namedWindow( "Demonio Tasmania1", cv::WINDOW_AUTOSIZE );
+
       vector<vector<Point> > cnt;
       cvtColor(img, img, CV_BGR2GRAY);
       imshow("Demonio Tasmania", img);
