@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"na",
+				"namespace"
+			],
+			[
 				"re",
 				"release"
 			],
@@ -180,26 +184,34 @@
 	"buffers":
 	[
 		{
-			"file": "main.cpp",
+			"file": "src/main.cpp",
 			"settings":
 			{
-				"buffer_size": 4056,
+				"buffer_size": 2893,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "proy_lib.h",
+			"file": "src/proy_lib.cpp",
 			"settings":
 			{
-				"buffer_size": 644,
+				"buffer_size": 10297,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "proy_lib.cpp",
+			"file": "include/proy_lib.h",
 			"settings":
 			{
-				"buffer_size": 10211,
+				"buffer_size": 799,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "CMakeLists.txt",
+			"settings":
+			{
+				"buffer_size": 817,
 				"line_ending": "Unix"
 			}
 		}
@@ -247,10 +259,17 @@
 	"expanded_folders":
 	[
 		"/home/trekirk/OpenCV/Proyecto-PIC",
-		"/home/trekirk/OpenCV/Proyecto-PIC/build"
+		"/home/trekirk/OpenCV/Proyecto-PIC/build",
+		"/home/trekirk/OpenCV/Proyecto-PIC/include",
+		"/home/trekirk/OpenCV/Proyecto-PIC/src"
 	],
 	"file_history":
 	[
+		"/home/trekirk/OpenCV/Proyecto-PIC/build/vision_app",
+		"/home/trekirk/OpenCV/Proyecto-PIC/src/proy_lib.cpp",
+		"/home/trekirk/OpenCV/Proyecto-PIC/proy_lib.cpp",
+		"/home/trekirk/OpenCV/Proyecto-PIC/proy_lib.h",
+		"/home/trekirk/OpenCV/Proyecto-PIC/main.cpp",
 		"/usr/local/include/opencv2/xfeatures2d/nonfree.hpp",
 		"/usr/include/opencv2/features2d/features2d.hpp",
 		"/usr/include/opencv2/contrib/contrib.hpp",
@@ -267,9 +286,6 @@
 		"/home/trekirk/OpenCV/Proyecto-PIC/CMakeLists.txt",
 		"/home/trekirk/Escritorio/Qt Creations/Entrega_Final_Alvaro_Munoz_Serrano_Juan_Jose_Gamboa_Montero/RobotArm/Point.cpp",
 		"/home/trekirk/Escritorio/Qt Creations/Entrega_Final_Alvaro_Munoz_Serrano_Juan_Jose_Gamboa_Montero/RobotArm/Point.h",
-		"/home/trekirk/OpenCV/Proyecto-PIC/main.cpp",
-		"/home/trekirk/OpenCV/Proyecto-PIC/proy_lib.h",
-		"/home/trekirk/OpenCV/Proyecto-PIC/proy_lib.cpp",
 		"/home/trekirk/OpenCV/Proyecto-PIC/prueba.cpp",
 		"/home/trekirk/Escritorio/CMakeLists.txt",
 		"/home/trekirk/catkin_ws/src/beacon_detection/src/beacondetpublisher.cpp",
@@ -320,19 +336,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "main.cpp",
+					"file": "src/main.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4056,
+						"buffer_size": 2893,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								257,
-								257
+								426,
+								426
 							]
 						],
 						"settings":
@@ -345,24 +361,54 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "proy_lib.h",
+					"file": "src/proy_lib.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 644,
+						"buffer_size": 10297,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								549,
-								549
+								13,
+								13
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "include/proy_lib.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 799,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								492,
+								492
 							]
 						],
 						"settings":
@@ -373,37 +419,35 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "proy_lib.cpp",
+					"buffer": 3,
+					"file": "CMakeLists.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10211,
+						"buffer_size": 817,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5348,
-								5348
+								169,
+								169
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/CMake/CMake.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2886.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
