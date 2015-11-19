@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/trekirk/OpenCV/Proyecto-PIC
+CMAKE_SOURCE_DIR = /home/juanmanuel/Documentos/GitRepository/Proyecto-PIC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/trekirk/OpenCV/Proyecto-PIC/build
+CMAKE_BINARY_DIR = /home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Proyecto-PIC.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/Proyecto-PIC.dir/flags.make
 
 CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.o: CMakeFiles/Proyecto-PIC.dir/flags.make
 CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.o: ../proy_lib.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.o -c /home/trekirk/OpenCV/Proyecto-PIC/proy_lib.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.o -c /home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/proy_lib.cpp
 
 CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/trekirk/OpenCV/Proyecto-PIC/proy_lib.cpp > CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/proy_lib.cpp > CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.i
 
 CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/trekirk/OpenCV/Proyecto-PIC/proy_lib.cpp -o CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/proy_lib.cpp -o CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.s
 
 CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.o.requires:
 .PHONY : CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.o.requires
@@ -98,6 +98,6 @@ CMakeFiles/Proyecto-PIC.dir/clean:
 .PHONY : CMakeFiles/Proyecto-PIC.dir/clean
 
 CMakeFiles/Proyecto-PIC.dir/depend:
-	cd /home/trekirk/OpenCV/Proyecto-PIC/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/trekirk/OpenCV/Proyecto-PIC /home/trekirk/OpenCV/Proyecto-PIC /home/trekirk/OpenCV/Proyecto-PIC/build /home/trekirk/OpenCV/Proyecto-PIC/build /home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles/Proyecto-PIC.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/juanmanuel/Documentos/GitRepository/Proyecto-PIC /home/juanmanuel/Documentos/GitRepository/Proyecto-PIC /home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/build /home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/build /home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/build/CMakeFiles/Proyecto-PIC.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Proyecto-PIC.dir/depend
 

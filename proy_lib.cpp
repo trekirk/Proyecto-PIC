@@ -7,21 +7,9 @@ namespace vision
     std::cout << " Usage: ./ORB_detector <img1> <img2>" << std::endl; 
   }
 
-  void matchORB(string image1, string image2)
+  void matchORB(Mat img1, Mat img2)
   {
-    Mat img1 = imread(image1,IMREAD_GRAYSCALE);
-    Mat img2 = imread(image2,IMREAD_GRAYSCALE);
-    namedWindow("ima1", WINDOW_AUTOSIZE);
-    namedWindow("ima2", WINDOW_AUTOSIZE);
-    imshow("ima1", img1);
-    imshow("ima2", img2);
     
-    if(img1.empty() || img2.empty())
-    {
-        printf("Can't load all the images!");
-        return;
-    }   
-
   //Initialise the Wrapping Class for Surf()
     ORB detector_extractor;
     //Ptr<FeatureDetector> detector = FeatureDetector::create("SURF");
@@ -45,7 +33,6 @@ namespace vision
     Mat img_matches;
     drawMatches(img1, keypoints1, img2, keypoints2, matches, img_matches);
     imshow("matches", img_matches);
-
     waitKey(0);
   }
 

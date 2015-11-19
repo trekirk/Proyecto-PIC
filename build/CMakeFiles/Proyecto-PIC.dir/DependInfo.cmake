@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/trekirk/OpenCV/Proyecto-PIC/proy_lib.cpp" "/home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.o"
+  "/home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/proy_lib.cpp" "/home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/build/CMakeFiles/Proyecto-PIC.dir/proy_lib.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,2 +1,2 @@
-/home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles/Proyecto-PIC.dir
-/home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles/vision_app.dir
+/home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/build/CMakeFiles/Proyecto-PIC.dir
+/home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/build/CMakeFiles/vision_app.dir

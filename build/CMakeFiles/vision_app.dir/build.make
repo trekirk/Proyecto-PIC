@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/trekirk/OpenCV/Proyecto-PIC
+CMAKE_SOURCE_DIR = /home/juanmanuel/Documentos/GitRepository/Proyecto-PIC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/trekirk/OpenCV/Proyecto-PIC/build
+CMAKE_BINARY_DIR = /home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/vision_app.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/vision_app.dir/flags.make
 
 CMakeFiles/vision_app.dir/main.cpp.o: CMakeFiles/vision_app.dir/flags.make
 CMakeFiles/vision_app.dir/main.cpp.o: ../main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/vision_app.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vision_app.dir/main.cpp.o -c /home/trekirk/OpenCV/Proyecto-PIC/main.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/vision_app.dir/main.cpp.o -c /home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/main.cpp
 
 CMakeFiles/vision_app.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vision_app.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/trekirk/OpenCV/Proyecto-PIC/main.cpp > CMakeFiles/vision_app.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/main.cpp > CMakeFiles/vision_app.dir/main.cpp.i
 
 CMakeFiles/vision_app.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vision_app.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/trekirk/OpenCV/Proyecto-PIC/main.cpp -o CMakeFiles/vision_app.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/main.cpp -o CMakeFiles/vision_app.dir/main.cpp.s
 
 CMakeFiles/vision_app.dir/main.cpp.o.requires:
 .PHONY : CMakeFiles/vision_app.dir/main.cpp.o.requires
@@ -82,7 +82,6 @@ vision_app_EXTERNAL_OBJECTS =
 vision_app: CMakeFiles/vision_app.dir/main.cpp.o
 vision_app: CMakeFiles/vision_app.dir/build.make
 vision_app: libProyecto-PIC.a
-vision_app: /usr/local/lib/libopencv_viz.so.3.0.0
 vision_app: /usr/local/lib/libopencv_videostab.so.3.0.0
 vision_app: /usr/local/lib/libopencv_videoio.so.3.0.0
 vision_app: /usr/local/lib/libopencv_video.so.3.0.0
@@ -131,6 +130,6 @@ CMakeFiles/vision_app.dir/clean:
 .PHONY : CMakeFiles/vision_app.dir/clean
 
 CMakeFiles/vision_app.dir/depend:
-	cd /home/trekirk/OpenCV/Proyecto-PIC/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/trekirk/OpenCV/Proyecto-PIC /home/trekirk/OpenCV/Proyecto-PIC /home/trekirk/OpenCV/Proyecto-PIC/build /home/trekirk/OpenCV/Proyecto-PIC/build /home/trekirk/OpenCV/Proyecto-PIC/build/CMakeFiles/vision_app.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/juanmanuel/Documentos/GitRepository/Proyecto-PIC /home/juanmanuel/Documentos/GitRepository/Proyecto-PIC /home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/build /home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/build /home/juanmanuel/Documentos/GitRepository/Proyecto-PIC/build/CMakeFiles/vision_app.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/vision_app.dir/depend
 
