@@ -1,2 +1,0 @@
-/usr/bin/ar cr libProyecto-PIC.a  CMakeFiles/Proyecto-PIC.dir/src/proy_lib.cpp.o
-/usr/bin/ranlib libProyecto-PIC.a

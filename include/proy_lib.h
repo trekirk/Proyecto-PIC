@@ -22,11 +22,9 @@ using namespace cv::xfeatures2d;
 namespace vision
 {
 	void readme();
-<<<<<<< HEAD:proy_lib.h
 
 	void matchORB(Mat img1, Mat img2);
 }
-=======
 	void matchORB(string image1, string image2);
 	void matchSURF(string image1, string image2);
 }
@@ -38,4 +36,3 @@ namespace practica2
 	int ejercicio3();
 	int ejercicio4();
 }
->>>>>>> jj:include/proy_lib.h
