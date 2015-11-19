@@ -3,12 +3,18 @@
 #define ESCAPE 27
 
 using namespace vision;
+using namespace practica2;
 
 /** @function main */
 int main( int argc, char** argv )
 {
-    matchSURF("baboon200_rotated.jpg", "baboon200.jpg");
-    matchORB("baboon200_rotated.jpg", "baboon200.jpg");
+    //matchSURF("baboon200_rotated.jpg", "baboon200.jpg");
+    ejercicio1();
+    ejercicio2();
+    ejercicio3();
+    ejercicio4();
+
+    //matchORB("baboon200_rotated.jpg", "baboon200.jpg");
     cout<<"Funcionamiento correcto"<<endl;
 }
 

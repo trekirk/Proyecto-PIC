@@ -23,3 +23,11 @@ namespace vision
 	void matchORB(string image1, string image2);
 	void matchSURF(string image1, string image2);
 }
+
+namespace practica2
+{
+	int ejercicio1();
+	int ejercicio2();
+	int ejercicio3();
+	int ejercicio4();
+}

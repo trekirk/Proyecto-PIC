@@ -4,6 +4,154 @@
 		"selected_items":
 		[
 			[
+				"re",
+				"release"
+			],
+			[
+				"hist",
+				"histImage"
+			],
+			[
+				"or",
+				"original_img"
+			],
+			[
+				"im",
+				"imshow"
+			],
+			[
+				"hist_",
+				"hist_h"
+			],
+			[
+				"bin",
+				"bin_w"
+			],
+			[
+				"max",
+				"max_point"
+			],
+			[
+				"min",
+				"min_point"
+			],
+			[
+				"norma",
+				"normalized_hist"
+			],
+			[
+				"norm",
+				"normalized_hist"
+			],
+			[
+				"original",
+				"original_hist"
+			],
+			[
+				"hi",
+				"histRange"
+			],
+			[
+				"his",
+				"histSize"
+			],
+			[
+				"ori",
+				"original_hist"
+			],
+			[
+				"CV_8UC",
+				"CV_8UC3"
+			],
+			[
+				"IML",
+				"IMREAD_GRAYSCALE"
+			],
+			[
+				"hit",
+				"histImage"
+			],
+			[
+				"cv",
+				"cvRound"
+			],
+			[
+				"p",
+				"Point"
+			],
+			[
+				"CV",
+				"CV_8UC3"
+			],
+			[
+				"h",
+				"h_hist"
+			],
+			[
+				"v",
+				"v_channel"
+			],
+			[
+				"s",
+				"s_channel"
+			],
+			[
+				"IMRE",
+				"IMREAD_COLOR"
+			],
+			[
+				"mandril",
+				"mandril_c"
+			],
+			[
+				"r",
+				"r_channel"
+			],
+			[
+				"cor",
+				"color_img"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"name",
+				"namedWindow"
+			],
+			[
+				"b",
+				"b_channel"
+			],
+			[
+				"g",
+				"g_channel"
+			],
+			[
+				"imre",
+				"imread"
+			],
+			[
+				"nam",
+				"namedWindow"
+			],
+			[
+				"en",
+				"endl"
+			],
+			[
+				"ch",
+				"CV_CHAIN_APPROX_SIMPLE"
+			],
+			[
+				"gray",
+				"gray_img"
+			],
+			[
+				"color",
+				"color_img"
+			],
+			[
 				"in",
 				"include"
 			],
@@ -12,20 +160,12 @@
 				"readme"
 			],
 			[
-				"re",
-				"return"
-			],
-			[
 				"Surf",
 				"SurfFeatureDetector"
 			],
 			[
 				"Descr",
 				"SurfDescriptorExtractor"
-			],
-			[
-				"hist",
-				"histogram"
 			],
 			[
 				"F",
@@ -43,7 +183,7 @@
 			"file": "main.cpp",
 			"settings":
 			{
-				"buffer_size": 3962,
+				"buffer_size": 4056,
 				"line_ending": "Unix"
 			}
 		},
@@ -51,7 +191,7 @@
 			"file": "proy_lib.h",
 			"settings":
 			{
-				"buffer_size": 560,
+				"buffer_size": 644,
 				"line_ending": "Unix"
 			}
 		},
@@ -59,7 +199,7 @@
 			"file": "proy_lib.cpp",
 			"settings":
 			{
-				"buffer_size": 4376,
+				"buffer_size": 10211,
 				"line_ending": "Unix"
 			}
 		}
@@ -184,15 +324,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3962,
+						"buffer_size": 4056,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								236,
-								236
+								257,
+								257
 							]
 						],
 						"settings":
@@ -201,11 +341,11 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
+						"translation.x": -0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -214,15 +354,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 560,
+						"buffer_size": 644,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								527,
-								527
+								549,
+								549
 							]
 						],
 						"settings":
@@ -233,7 +373,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -242,15 +382,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4376,
+						"buffer_size": 10211,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1093,
-								1093
+								5348,
+								5348
 							]
 						],
 						"settings":
@@ -260,7 +400,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 10.0,
+						"translation.y": 2886.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
